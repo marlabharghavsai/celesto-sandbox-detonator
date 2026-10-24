@@ -19,21 +19,26 @@ The system operates across two strictly isolated trust zones.
 flowchart TD
     subgraph TrustedControlPlane["Trusted Control Plane (Operator Zone)"]
         Operator["Operator / CI Pipeline"] -->|HTTP / REST| API["Run Ledger API (FastAPI :8080)"]
-        API -->|Records & Queries Runs| DB[("PostgreSQL Ledger (:5432)")]
+        API -->|Records & Queries Runs| DB[("PostgreSQL Ledger :5432")]
         Seeds["seeds/01_runs.sql"] -->|Init Mount| DB
         AgentSupervisor["Agent Supervisor Loop"] -->|Audits Lifecycle Events| API
         AgentSupervisor -->|Pre-Exec Inspection| SafetyHook["Safety Hook Engine"]
     end
 
     subgraph UntrustedComputers["Untrusted Execution Zone (Celesto MicroVMs)"]
-        AgentSupervisor -->|SDK / Control Channel (vsock)| GuestVM["Celesto MicroVM Sandbox"]
-        GuestVM -->|Executes untrusted tools| GuestTools["Shell / Python / Browser"]
-        GuestVM -.->|Network Policy Disabled| BlockedEgress["External Internet (Blocked Egress)"]
-        GuestVM -->|Snapshot / Rollback| SnapshotStore["MicroVM Checkpoint Store"]
+        GuestVM["Celesto MicroVM Sandbox"]
+        GuestTools["Guest Tools: Shell / Python / Browser"]
+        BlockedEgress["External Internet (Blocked Egress)"]
+        SnapshotStore["MicroVM Checkpoint Store"]
+
+        GuestVM -->|Executes untrusted tools| GuestTools
+        GuestVM -.->|Network Policy Disabled| BlockedEgress
+        GuestVM -->|Snapshot / Rollback| SnapshotStore
     end
 
+    AgentSupervisor -->|"SDK / Control Channel (vsock)"| GuestVM
     SafetyHook -->|Logs Decisions| AuditLog["logs/commands.jsonl (celesto_sandbox)"]
-    GuestVM -->|Telemetry & Reports| ReportsDir["reports/ (problem, reliability, containment)"]
+    GuestVM -->|Telemetry & Reports| ReportsDir["reports/"]
 ```
 
 ---
