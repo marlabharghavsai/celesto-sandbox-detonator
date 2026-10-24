@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Safety hooks intercept, inspect, and evaluate shell commands before execution within the guest microVM, blocking destructive filesystem modifications, canary token access, and malicious privilege escalation attempts deterministically.",
+      "evidence_path": "logs/commands.jsonl"
+    },
+    {
+      "id": "network_policy",
+      "why": "Network policy enforces strict guest microVM egress rules by isolating untrusted workloads without internet access, defeating prompt injection exfiltration attacks attempting to transmit canary environment secrets.",
+      "evidence_path": "reports/containment.json"
+    }
+  ]
+}
