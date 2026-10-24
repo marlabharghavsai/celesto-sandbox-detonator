@@ -1,0 +1,193 @@
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0001", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0001", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0002", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0002", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0003", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0003", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0004", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0004", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0005", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0005", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0006", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0006", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0007", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_failed", "sandbox_name": "sbx-evalrun0007", "error": "GuestProcessCrashed: Segmentation fault / hostile exploit triggered in edge case test", "command": "python3 /workspace/exploits/test_edge.py"}
+{"step": 7, "event": "policy_applied", "sandbox_name": "sbx-evalrun0007", "policy": "rollback", "action": "Executing rollback to restore guest microVM to checkpoint-step-6"}
+{"step": 7, "event": "rollback_succeeded", "sandbox_name": "sbx-evalrun0007", "snapshot_id": "checkpoint-step-6", "state": "restored"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0007", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0008", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0008", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0009", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0009", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0010", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0010", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0011", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0011", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0012", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0012", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0013", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0013", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0015", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0015", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0016", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0016", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0017", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0017", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0018", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0018", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0019", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0019", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
+{"step": 1, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Verify guest microVM environment", "exit_code": 0, "ok": true}
+{"step": 2, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Extract untrusted artifact package", "exit_code": 0, "ok": true}
+{"step": 3, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Static safety heuristic scan", "exit_code": 0, "ok": true}
+{"step": 4, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Install isolated dependencies", "exit_code": 0, "ok": true}
+{"step": 5, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Execute baseline test suite", "exit_code": 0, "ok": true}
+{"step": 6, "event": "snapshot_created", "sandbox_name": "sbx-evalrun0020", "snapshot_id": "checkpoint-step-6"}
+{"step": 7, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Execute hostile edge-case exploit test", "exit_code": 0, "ok": true}
+{"step": 8, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Generate memory and coverage profile", "exit_code": 0, "ok": true}
+{"step": 9, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Compile forensic execution manifest", "exit_code": 0, "ok": true}
+{"step": 10, "event": "step_completed", "sandbox_name": "sbx-evalrun0020", "description": "Finalize audit report and cleanup", "exit_code": 0, "ok": true}
