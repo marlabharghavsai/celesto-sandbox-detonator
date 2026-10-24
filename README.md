@@ -36,7 +36,7 @@ flowchart TD
     GuestVM -->|Telemetry & Reports| ReportsDir["reports/ (problem, reliability, containment)"]
 ```
 
-
+---
 
 ## Problem Statement
 
