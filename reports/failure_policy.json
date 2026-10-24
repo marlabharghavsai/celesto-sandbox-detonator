@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "rollback",
+  "rationale": "When step 7 of 10 fails due to an unexpected command error or hostile exploit, the agent executes an automated rollback policy. By reverting to the verified snapshot taken at step 6, the agent avoids corrupted filesystem artifacts while conserving compute credits without requiring an expensive cold reboot from step 1.",
+  "trace_path": "reports/failure_trace.jsonl"
+}
