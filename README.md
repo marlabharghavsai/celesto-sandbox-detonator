@@ -17,33 +17,33 @@ The system operates across two strictly isolated trust zones.
 
 ```mermaid
 flowchart TD
-    subgraph TrustedControlPlane["Trusted Control Plane (Operator Zone)"]
-        Operator["Operator / CI Pipeline"] -->|HTTP / REST| API["Run Ledger API (FastAPI :8080)"]
-        API -->|Records & Queries Runs| DB[("PostgreSQL Ledger :5432")]
+    subgraph TrustedControlPlane["Trusted Control Plane: Operator Zone"]
+        Operator["Operator / CI Pipeline"] -->|HTTP REST| API["Run Ledger API :8080"]
+        API -->|Records Runs| DB[("PostgreSQL Ledger :5432")]
         Seeds["seeds/01_runs.sql"] -->|Init Mount| DB
         AgentSupervisor["Agent Supervisor Loop"] -->|Audits Lifecycle Events| API
         AgentSupervisor -->|Pre-Exec Inspection| SafetyHook["Safety Hook Engine"]
     end
 
-    subgraph UntrustedComputers["Untrusted Execution Zone (Celesto MicroVMs)"]
+    subgraph UntrustedComputers["Untrusted Execution Zone: Celesto MicroVMs"]
         GuestVM["Celesto MicroVM Sandbox"]
-        GuestTools["Guest Tools: Shell / Python / Browser"]
-        BlockedEgress["External Internet (Blocked Egress)"]
+        GuestTools["Guest Tools: Shell, Python, Browser"]
+        BlockedEgress["External Internet: Blocked Egress"]
         SnapshotStore["MicroVM Checkpoint Store"]
 
         GuestVM -->|Executes untrusted tools| GuestTools
         GuestVM -.->|Network Policy Disabled| BlockedEgress
-        GuestVM -->|Snapshot / Rollback| SnapshotStore
+        GuestVM -->|Snapshot Rollback| SnapshotStore
     end
 
-    AgentSupervisor -->|"SDK / Control Channel (vsock)"| GuestVM
-    SafetyHook -->|Logs Decisions| AuditLog["logs/commands.jsonl (celesto_sandbox)"]
-    GuestVM -->|Telemetry & Reports| ReportsDir["reports/"]
+    AgentSupervisor -->|SDK vsock Control Channel| GuestVM
+    SafetyHook -->|Logs Decisions| AuditLog["logs/commands.jsonl"]
+    GuestVM -->|Telemetry Reports| ReportsDir["reports/"]
 ```
 
 ---
 
-## Problem Statement
+## Problem statement
 
 Security engineers, platform autograders, and DevOps teams evaluating untrusted student code and malicious dependencies in CI pipelines face severe security risks. When an AI agent runs untrusted code or tests third-party submissions directly on a host server or shared container, malicious scripts (such as fork bombs, root wipes, credential extractors, or prompt-injected exfiltration payloads) can escape or compromise host infrastructure.
 
@@ -51,7 +51,7 @@ Our autonomous agent boots clean, hardware-isolated Celesto microVMs, analyzes h
 
 ---
 
-## How I Used Celesto
+## How I used Celesto
 
 We went beyond basic command execution (`computer.run("echo hi")`) by leveraging multiple core Celesto capabilities.
 
@@ -74,7 +74,7 @@ We went beyond basic command execution (`computer.run("echo hi")`) by leveraging
 
 ---
 
-## Eval Report
+## Eval report
 
 Reliability was measured across 20 fresh, independent Celesto microVM sandbox runs.
 
@@ -95,7 +95,7 @@ Reliability was measured across 20 fresh, independent Celesto microVM sandbox ru
 
 ---
 
-## Containment Test
+## Containment test
 
 The Celesto sandbox environment was tested against deliberate attack vectors.
 
@@ -117,7 +117,7 @@ The Celesto sandbox environment was tested against deliberate attack vectors.
 
 ---
 
-## State and Failure Design
+## State and failure design
 
 Agents may fail midway through execution. In the 10-step submission grading workflow, Step 7 represents the high-risk edge-case execution stage.
 
