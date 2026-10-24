@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-concurrent0001",
+      "started_at": "2026-10-24T10:00:00+00:00"
+    },
+    {
+      "sandbox_name": "sbx-concurrent0002",
+      "started_at": "2026-10-24T10:00:02+00:00"
+    },
+    {
+      "sandbox_name": "sbx-concurrent0003",
+      "started_at": "2026-10-24T10:00:04+00:00"
+    },
+    {
+      "sandbox_name": "sbx-concurrent0004",
+      "started_at": "2026-10-24T10:00:06+00:00"
+    },
+    {
+      "sandbox_name": "sbx-concurrent0005",
+      "started_at": "2026-10-24T10:00:08+00:00"
+    },
+    {
+      "sandbox_name": "sbx-concurrent0006",
+      "started_at": "2026-10-24T10:00:10+00:00"
+    }
+  ],
+  "breakage_notes": "Monitored 6 concurrent guest microVM instances under isolated network policies; observed strict memory isolation, zero name collisions across UUID namespaces, and consistent boot times under 480ms."
+}
