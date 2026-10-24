@@ -1,0 +1,6 @@
+{
+  "who": "Security engineers and DevOps evaluators running untrusted student code and malicious dependencies in CI pipelines",
+  "agent_work": "The autonomous agent boots isolated Celesto microVMs, analyzes hostile binaries under safety hooks, validates policy containment, and captures forensic traces",
+  "proof_output": "Comprehensive forensic detonation report, safety audit ledger, and verified containment logs",
+  "idea_source": "idea_bank"
+}
